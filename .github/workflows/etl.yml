@@ -1,0 +1,54 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Clone viewer
+      uses: actions/checkout@v2
+      with:
+        repository: vasyaod/my-trips-viewer
+        path: my-trips-code
+
+    - name: Clone repo of pages
+      uses: actions/checkout@v2
+      with:
+        repository: vasyaod/my-trips
+        path: my-trips
+
+    - name: Clone data
+      uses: actions/checkout@v2
+      with:
+        path: my-trips-data
+
+    - name: Compile site code
+      run: |
+        cd my-trips-code/viewer
+        npm install
+        npm run build
+        cd ../..
+        cp -u my-trips-code/viewer/bundle.js my-trips
+
+    - name: Commit my-trips page
+      run: |
+        cd my-trips
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git commit -m "Add changes" -a
+
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        directory: my-trips
+        repository: vasyaod/my-trips
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build1,
+        echo test, and deploy your project.
