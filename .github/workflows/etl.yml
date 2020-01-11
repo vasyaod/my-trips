@@ -33,6 +33,15 @@ jobs:
         cd ../..
         cp -u my-trips-code/viewer/bundle.js my-trips
 
+    - name: Data processing
+      env: 
+        INPUT_DATA_PATH: ../../my-trips/initial-data
+        OUTPUT_DATA_PATH: ../../my-trips
+      run: |
+        cd my-trips-code/etl
+        npm install
+        npm run lets-do-this
+
     - name: Commit my-trips page
       run: |
         cd my-trips
