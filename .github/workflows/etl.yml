@@ -44,8 +44,8 @@ jobs:
 
     - name: Run site in dev mode
       run: |
-        ln -sf my-trips/data my-trips-code/viewer
-        ln -sf my-trips/images my-trips-code/viewer
+        cp -R my-trips/data my-trips-code/viewer
+        cp -R my-trips/images my-trips-code/viewer
         cd my-trips-code/viewer
         npm install
         npm run dev &
