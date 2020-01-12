@@ -42,6 +42,23 @@ jobs:
         npm install
         npm run lets-do-this
 
+    - name: Run site in dev mode
+      run: |
+        cd my-trips-code/viewer
+        npm install
+        npm run dev &
+        cd ../..
+
+    - name: Make preview for every trip.
+      env: 
+        INPUT_DATA_PATH: ../../my-trips/initial-data
+        OUTPUT_DATA_PATH: ../../my-trips
+      run: |
+        cd my-trips-code/previewer
+        npm install
+        npm run lets-do-this
+        cd ../..
+
     - name: Commit my-trips page
       run: |
         cd my-trips
