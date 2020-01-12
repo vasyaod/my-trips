@@ -44,12 +44,15 @@ jobs:
 
     - name: Run site in dev mode
       run: |
+        ln -sf my-trips/data my-trips-code/viewer/data
+        ln -sf my-trips/images my-trips-code/viewer/images
+        ls my-trips-code/viewer
         cd my-trips-code/viewer
         npm install
         npm run dev &
         cd ../..
 
-    - name: Make preview for every trip.
+    - name: Make preview for every trip
       env: 
         INPUT_DATA_PATH: ../../my-trips/initial-data
         OUTPUT_DATA_PATH: ../../my-trips
