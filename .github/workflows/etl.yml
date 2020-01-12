@@ -44,11 +44,11 @@ jobs:
 
     - name: Run site in dev mode
       run: |
-        ln -sf my-trips/data my-trips-code/viewer/data
-        ln -sf my-trips/images my-trips-code/viewer/images
-        ls my-trips-code/viewer
+        ln -s my-trips/data my-trips-code/viewer
+        ln -s my-trips/images my-trips-code/viewer
+        ls -l my-trips-code/viewer
         echo "---------------"
-        ls my-trips-code/viewer/data
+        ls -Rl my-trips-code/viewer/data
         echo "---------------"
         cd my-trips-code/viewer
         npm install
