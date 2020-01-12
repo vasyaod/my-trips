@@ -44,8 +44,8 @@ jobs:
 
     - name: Run site in dev mode
       run: |
-        ln my-trips/data my-trips-code/viewer
-        ln my-trips/images my-trips-code/viewer
+        cp -R my-trips/data my-trips-code/viewer
+        cp -R my-trips/images my-trips-code/viewer
         ls -l my-trips-code/viewer
         echo "---------------"
         ls -Rl my-trips-code/viewer/data
