@@ -44,12 +44,8 @@ jobs:
 
     - name: Run site in dev mode
       run: |
-        cp -R my-trips/data my-trips-code/viewer
-        cp -R my-trips/images my-trips-code/viewer
-        ls -l my-trips-code/viewer
-        echo "--------------"
-        ls -Rl my-trips-code/viewer/data
-        echo "--------------"
+        ln -sf my-trips/data my-trips-code/viewer
+        ln -sf my-trips/images my-trips-code/viewer
         cd my-trips-code/viewer
         npm install
         npm run dev &
@@ -60,7 +56,6 @@ jobs:
         INPUT_DATA_PATH: ../../my-trips/initial-data
         OUTPUT_DATA_PATH: ../../my-trips
       run: |
-        curl http://localhost:8080/data/20191230/track.gpx
         cd my-trips-code/previewer
         npm install
         npm run lets-do-this
