@@ -60,6 +60,7 @@ jobs:
         INPUT_DATA_PATH: ../../my-trips/initial-data
         OUTPUT_DATA_PATH: ../../my-trips
       run: |
+        curl http://localhost:8080/data/20191230/track.gpx
         cd my-trips-code/previewer
         npm install
         npm run lets-do-this
