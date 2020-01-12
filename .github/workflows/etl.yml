@@ -47,9 +47,9 @@ jobs:
         ln -s my-trips/data my-trips-code/viewer
         ln -s my-trips/images my-trips-code/viewer
         ls -l my-trips-code/viewer
-        echo "---------------"
+        echo "----------------"
         ls -Rl my-trips-code/viewer/data
-        echo "---------------"
+        echo "----------------"
         cd my-trips-code/viewer
         npm install
         npm run dev &
