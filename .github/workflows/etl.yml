@@ -39,6 +39,8 @@ jobs:
         OUTPUT_DATA_PATH: ../../my-trips
       run: |
         cd my-trips-code/etl
+        curl -L https://yt-dl.org/downloads/latest/youtube-dl -o youtube-dl
+        chmod +x youtube-dl
         npm install
         npm run lets-do-this
 
