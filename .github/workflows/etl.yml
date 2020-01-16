@@ -78,12 +78,19 @@ jobs:
         directory: my-trips
         repository: vasyaod/my-trips
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    
-    - name: Push changes to gh-pages
-      uses: ad-m/github-push-action@master
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        branch: gh-pages
-        force: true
-        directory: my-trips
-        repository: vasyaod/my-trips
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: vasyaod/my-trips
+
+#    - name: Push changes to gh-pages
+#      uses: ad-m/github-push-action@master
+#      with:
+#        branch: gh-pages
+#        force: true
+#        directory: my-trips
+#        repository: vasyaod/my-trips
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
