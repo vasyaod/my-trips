@@ -79,9 +79,9 @@ jobs:
         repository: vasyaod/my-trips
         github_token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Push changes to gh-pages
+    - name: Push changes to g-h-pages
       run: |
-        cd my-trips
+        pwd
         git checkout gh-pages
         git pull
         git push
