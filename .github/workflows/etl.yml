@@ -85,6 +85,7 @@ jobs:
         git fetch
         git checkout gh-pages || git checkout -b gh-pages
         git pull
+        git pull origin master
         git push
         
 #    - name: Push changes to gh-pages
