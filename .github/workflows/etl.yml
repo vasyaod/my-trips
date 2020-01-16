@@ -86,8 +86,3 @@ jobs:
         directory: my-trips
         repository: vasyaod/my-trips
         github_token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build1,
-        echo test, and deploy your project.
