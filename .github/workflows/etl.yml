@@ -81,10 +81,9 @@ jobs:
 
     - name: Push changes to g-h-pages
       run: |
-        pwd
         cd my-trips
-        pwd
-        git checkout gh-pages
+        git fetch
+        git checkout gh-pages || git checkout -b gh-pages
         git pull
         git push
         
