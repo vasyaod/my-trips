@@ -82,6 +82,8 @@ jobs:
     - name: Push changes to g-h-pages
       run: |
         pwd
+        cd my-trips
+        pwd
         git checkout gh-pages
         git pull
         git push
