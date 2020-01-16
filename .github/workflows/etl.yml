@@ -79,15 +79,29 @@ jobs:
         repository: vasyaod/my-trips
         github_token: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Push changes to g-h-pages
+    # - name: Push changes to gh-pages
+    #   run: |
+    #     cd my-trips
+    #     git fetch
+    #     git checkout gh-pages || git checkout -b gh-pages
+    #     git pull
+    #     git pull origin master
+    #     git push
+
+    - name: Clone repo of gh-pages
+      uses: actions/checkout@v2
+      with:
+        repository: vasyaod/my-trips
+        path: my-trips-pages
+        ref: gh-pages
+
+    - name: Push changes to gh-pages
       run: |
-        cd my-trips
+        cd my-trips-pages
         git fetch
-        git checkout gh-pages || git checkout -b gh-pages
-        git pull
         git pull origin master
         git push
-        
+
 #    - name: Push changes to gh-pages
 #      uses: ad-m/github-push-action@master
 #      with:
