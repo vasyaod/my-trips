@@ -8,9 +8,37 @@
   },
   {
     "type": "video",
+    "img": "20191230-d1-e11",
+    "youtubeId": "ja4aEcJPbJc",
+    "lat": 36.972335,
+    "lng": -121.912292
+  },
+  {
+    "type": "video",
+    "img": "20191230-d1-e12",
+    "youtubeId": "yOwItIDstAw",
+    "lat": 36.969258,
+    "lng": -121.903186
+  },
+  {
+    "type": "video",
+    "img": "20191230-d1-e4",
+    "youtubeId": "6D-ISuoCQk8",
+    "lat": 37.146962,
+    "lng": -121.973965
+  },
+  {
+    "type": "video",
     "img": "20191230-d1-e8",
     "youtubeId": "17I4BLNUhRA",
     "lat": 37.134373,
     "lng": -121.964709
+  },
+  {
+    "type": "video",
+    "img": "20191230-d1-e9",
+    "youtubeId": "6O8bJ27iBpE",
+    "lat": 37.120377,
+    "lng": -121.928881
   }
 ]
