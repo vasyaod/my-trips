@@ -83,6 +83,7 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         branch: gh-pages
+        force: true
         directory: my-trips
         repository: vasyaod/my-trips
         github_token: ${{ secrets.GITHUB_TOKEN }}
