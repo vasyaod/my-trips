@@ -1,12 +1,20 @@
 [
   {
-    "title": "2019 New year trip, Day 1",
+    "title": "2019 New Year Trip, Day 1",
     "description": null,
+    "date": "2019-12-30T00:00:00.000Z",
     "id": "20191230"
   },
   {
-    "title": "2019 New year trip, Day 2",
+    "title": "2019 New Year Trip, Day 2",
     "description": null,
+    "date": "2019-12-31T00:00:00.000Z",
     "id": "20191231"
+  },
+  {
+    "title": "Family Triple Tandem Ride To Stanford",
+    "description": null,
+    "date": "2020-01-05T00:00:00.000Z",
+    "id": "20200105"
   }
 ]
