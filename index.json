@@ -1,10 +1,12 @@
 [
   {
     "title": "2019 New year trip, Day 1",
-    "description": null
+    "description": null,
+    "id": "20191230"
   },
   {
     "title": "2019 New year trip, Day 2",
-    "description": null
+    "description": null,
+    "id": "20191231"
   }
 ]
