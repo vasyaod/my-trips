@@ -1,5 +1,11 @@
 [
   {
+    "title": "Recumbent Bike Climbing",
+    "description": "First serious uphill (700m) with the recumbent bike",
+    "date": "2019-12-21",
+    "id": "20191208"
+  },
+  {
     "title": "Black Moutain Trip, Day 1",
     "description": "The trip to Black Moutain (Los Altos, CA) with Iakov",
     "date": "2019-12-21",
@@ -31,7 +37,7 @@
   },
   {
     "title": "Around the Bay",
-    "description": null,
+    "description": "In fact, it was 225 km for 16 hours approximately. The next increasing distance is possible only for increasing average speed and reducing navigation time.",
     "date": "2020-01-05",
     "id": "20200119"
   }
