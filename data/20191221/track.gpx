@@ -264,6 +264,4 @@
 <trkpt lat="37.31858789" lon="-122.15445598"><ele>780.0</ele><time>2019-12-22T01:52:18.609Z</time><course>341.2</course><speed>0.2</speed><geoidheight>-27.0</geoidheight><src>gps</src><hdop>0.7</hdop><vdop>0.8</vdop><pdop>1.0</pdop></trkpt>
 <trkpt lat="37.31867758" lon="-122.15437031"><ele>780.0</ele><time>2019-12-22T01:53:19.000Z</time><speed>0.0</speed><geoidheight>-27.0</geoidheight><src>gps</src><sat>17</sat><hdop>0.7</hdop><vdop>0.8</vdop><pdop>1.0</pdop></trkpt>
 <trkpt lat="37.31861619" lon="-122.15435771"><ele>780.0</ele><time>2019-12-22T01:54:20.000Z</time><speed>0.0</speed><geoidheight>-27.0</geoidheight><src>gps</src><sat>19</sat><hdop>0.6</hdop><vdop>0.8</vdop><pdop>1.0</pdop></trkpt>
-<trkpt lat="37.31871205" lon="-122.15432212"><ele>782.0</ele><time>2019-12-22T02:56:50.916Z</time><course>149.2</course><speed>0.22</speed><geoidheight>-27.0</geoidheight><src>gps</src><sat>4</sat><hdop>0.6</hdop><vdop>0.8</vdop><pdop>1.0</pdop></trkpt>
-<trkpt lat="37.3187023" lon="-122.15447175"><ele>778.0</ele><time>2019-12-22T07:03:02.304Z</time><speed>0.0</speed><src>gps</src><sat>8</sat></trkpt>
 </trkseg></trk></gpx>
