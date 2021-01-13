@@ -1,0 +1,16 @@
+{
+  "title": "Recumbent Bike Climbing",
+  "description": "First serious uphill (700m) with the recumbent bike",
+  "gpx": [
+    "track.gpx"
+  ],
+  "date": "2019-12-08T00:00:00.000Z",
+  "objects": [
+    {
+      "type": "image",
+      "img": "20191208-photo1",
+      "lat": 37.342971,
+      "lng": -121.71584
+    }
+  ]
+}
