@@ -1,0 +1,142 @@
+[
+  {
+    "title": "Recumbent Bike Climbing",
+    "description": "First serious uphill (700m) with the recumbent bike",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2019-12-08",
+    "id": "20191208"
+  },
+  {
+    "title": "Black Moutain Trip, Day 1",
+    "description": "The trip to Black Moutain (Los Altos, CA) with Iakov, 800m above mean sea level",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2019-12-21",
+    "id": "20191221"
+  },
+  {
+    "title": "Black Moutain Trip, Day 2",
+    "description": "The trip to Black Moutain (Los Altos, CA) with Iakov, 800m above mean sea level",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2019-12-22",
+    "id": "20191222"
+  },
+  {
+    "title": "2019 New Year Trip, Day 1",
+    "description": null,
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2019-12-30",
+    "id": "20191230"
+  },
+  {
+    "title": "2019 New Year Trip, Day 2",
+    "description": null,
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2019-12-31",
+    "id": "20191231"
+  },
+  {
+    "title": "Family Triple Tandem Ride To Stanford",
+    "description": null,
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-01-05",
+    "id": "20200105"
+  },
+  {
+    "title": "Around the Bay",
+    "description": "In fact, it was 225 km for 16 hours approximately. The next increasing daily distance is possible only for increasing average speed and reducing navigation time",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-01-19",
+    "id": "20200119"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 1 of 6",
+    "description": "The first long journey after COVID lockdown, in the case, the goal is to reach Los Angeles. In the end of the day I stayed in Sunset State Beach Campground which has surprisingly opened",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-03",
+    "id": "20201003"
+  },
+  {
+    "title": "San Francisco to Los Angeles, All 6 Days",
+    "description": "The first long journey after COVID lockdown, in the case, the goal is to reach Los Angeles.",
+    "gpx": [
+      "track1.gpx",
+      "track2.gpx",
+      "track3.gpx",
+      "track4.gpx",
+      "track5.gpx",
+      "track6.gpx"
+    ],
+    "date": "2020-10-03",
+    "id": "20201003-all"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 2 of 6",
+    "description": "The most longest day of the trip. In this day I had no luck to find any opened camping (for different reason, some of them was closed because of COVID and the last one was closed because it was too late) and I just overnight on a shoulder.",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-04",
+    "id": "20201004"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 3 of 6",
+    "description": "The cheapest way to overnight is a tent which is on a road shoulder again",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-05",
+    "id": "20201005"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 4 of 6",
+    "description": "In this day I spent $70 for a motel room and shower, I think it is the most expensive day during of the trip",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-06",
+    "id": "20201006"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 5 of 6",
+    "description": "In Santa Barbara I became so lazy that just slept in sleeping bag between the railroad and a some beach without setting up of the tent",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-07",
+    "id": "20201007"
+  },
+  {
+    "title": "San Francisco to Los Angeles, Day 6 of 6",
+    "description": "Unfortunately afternoon my wife caught me in Oxnard a little before Los Angeles but I swear that I would get Malibu before sunset if would have more time",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2020-10-08",
+    "id": "20201008"
+  },
+  {
+    "title": "To The Ocean with The Son",
+    "description": "The most longest and durable ride with my son on this moment to the ocean coast near by Santa Cruz. We got a tent and took overnight on the coast.",
+    "gpx": [
+      "track.gpx"
+    ],
+    "date": "2021-01-09",
+    "id": "20210109"
+  }
+]

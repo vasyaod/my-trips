@@ -1,0 +1,24 @@
+{
+  "title": "2019 New Year Trip, Day 2",
+  "description": null,
+  "gpx": [
+    "track.gpx"
+  ],
+  "date": "2019-12-31T00:00:00.000Z",
+  "objects": [
+    {
+      "type": "video",
+      "img": "20191231-d1-e1",
+      "youtubeId": "XukF5bA7Vu4",
+      "lat": 36.884331,
+      "lng": -121.826862
+    },
+    {
+      "type": "video",
+      "img": "20191231-d1-e2",
+      "youtubeId": "B_g57DFX67w",
+      "lat": 36.882982,
+      "lng": -121.828021
+    }
+  ]
+}
